@@ -1,5 +1,7 @@
 SetUp
 
+Commitzen
+
 EsLint & Prettier:
 
 prettier eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks babel-eslint @babel/core babel-eslint babel-loader babel-preset-react-app
