@@ -27,6 +27,7 @@ ContentBlock.propTypes = {
   id: PropTypes.string,
   className: PropTypes.string,
   navBarMargin: PropTypes.bool,
+  color: PropTypes.bool,
 }
 
 ContentBlock.defaultProps = {

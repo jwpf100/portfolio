@@ -38,8 +38,8 @@ const SkillsIconSection = ({ children, className }) => (
       <SkillBadge icon={faJs} name="JavaScript" />
       <SkillBadge icon={faReact} name="React" />
       <SkillBadge icon={faGit} name="git" />
-      <SkillBadge icon={faBootstrap} name="Bootstrap" />
       <SkillBadge icon={faGithub} name="github" />
+      <SkillBadge icon={faBootstrap} name="Bootstrap" />
       <SkillBadge icon={faNode} name="Node.js & Express" />
       <SkillBadge icon={faDatabase} name="MongoDB MySQL GraphQL" />
       <SkillBadge icon={faTools} name="ESLint Mocha Docker" />
@@ -48,8 +48,8 @@ const SkillsIconSection = ({ children, className }) => (
 )
 
 const StyledSkillsIconSection = styled(SkillsIconSection)`
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 `
 
 export default StyledSkillsIconSection

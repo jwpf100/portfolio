@@ -12,6 +12,8 @@ import useSticky from '../hooks/useSticky'
 import ContentBlock from '../components/ContentBlock'
 import TextImageSection from '../components/TextImageSection'
 import SkillsSection from '../components/SkillsSection'
+import ExperienceSection from '../components/ExperienceSection'
+
 // data
 
 // markup
@@ -47,6 +49,9 @@ const IndexPage = ({ data }) => {
       </ContentBlock>
       <ContentBlock color>
         <SkillsSection />
+      </ContentBlock>
+      <ContentBlock>
+        <ExperienceSection />
       </ContentBlock>
     </Layout>
   )
