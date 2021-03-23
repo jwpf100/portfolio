@@ -6,11 +6,17 @@ import HeroImageFull from '../components/HeroImageFull'
 import TestContent from '../components/TestContent'
 import HeroText from '../components/HeroText'
 import HeroContactIcons from '../components/HeroContactIcons'
+import Navbar from '../components/Navbar'
+import useSticky from '../hooks/useSticky'
 
 // data
 
 // markup
 const IndexPage = ({ data }) => {
+  // HOOKS
+
+  const { isSticky, element } = useSticky()
+
   const heroImages = [
     {
       ...data.mobileImage.childImageSharp.fluid,
@@ -24,11 +30,13 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <HeroImageFull sources={heroImages}>
+      <HeroImageFull sources={heroImages} element={element}>
         <HeroText>
           <HeroContactIcons />
         </HeroText>
       </HeroImageFull>
+      <div ref={element} />
+      <Navbar sticky={isSticky} />
       <TestContent />
     </Layout>
   )
