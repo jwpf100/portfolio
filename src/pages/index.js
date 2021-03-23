@@ -11,7 +11,7 @@ import Navbar from '../components/Navbar'
 import useSticky from '../hooks/useSticky'
 import ContentBlock from '../components/ContentBlock'
 import TextImageSection from '../components/TextImageSection'
-
+import SkillsSection from '../components/SkillsSection'
 // data
 
 // markup
@@ -42,11 +42,12 @@ const IndexPage = ({ data }) => {
       </HeroImageFull>
       <div ref={element} />
       <Navbar sticky={isSticky} />
-      <ContentBlock>
+      <ContentBlock navBarMargin>
         <TextImageSection image={profileImage} />
       </ContentBlock>
-      <GatsbyImage image={profileImage} alt="Joe Fletcher" />
-      <TestContent />
+      <ContentBlock color>
+        <SkillsSection />
+      </ContentBlock>
     </Layout>
   )
 }
