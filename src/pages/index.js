@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import PropTypes from 'prop-types'
 import Layout from '../components/Layout'
 import HeroImageFull from '../components/HeroImageFull'
@@ -8,6 +9,8 @@ import HeroText from '../components/HeroText'
 import HeroContactIcons from '../components/HeroContactIcons'
 import Navbar from '../components/Navbar'
 import useSticky from '../hooks/useSticky'
+import ContentBlock from '../components/ContentBlock'
+import TextImageSection from '../components/TextImageSection'
 
 // data
 
@@ -28,6 +31,8 @@ const IndexPage = ({ data }) => {
     },
   ]
 
+  const profileImage = getImage(data.aboutMeImage)
+
   return (
     <Layout>
       <HeroImageFull sources={heroImages} element={element}>
@@ -37,6 +42,10 @@ const IndexPage = ({ data }) => {
       </HeroImageFull>
       <div ref={element} />
       <Navbar sticky={isSticky} />
+      <ContentBlock>
+        <TextImageSection image={profileImage} />
+      </ContentBlock>
+      <GatsbyImage image={profileImage} alt="Joe Fletcher" />
       <TestContent />
     </Layout>
   )
@@ -62,8 +71,14 @@ export const pageQuery = graphql`
         }
       }
     }
+    aboutMeImage: file(relativePath: { eq: "profile/profile-glacier.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED)
+      }
+    }
   }
 `
+
 IndexPage.propTypes = {
   data: PropTypes.object,
 }
