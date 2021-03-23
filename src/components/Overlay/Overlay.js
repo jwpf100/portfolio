@@ -10,9 +10,9 @@ const StyledOverlay = styled(Overlay)`
   height: 100%;
   left: 0;
   top: 0;
-  background: #000;
+  background: black;
   z-index: 2;
-  opacity: 0.6;
+  opacity: 0.2;
 `
 
 export default StyledOverlay

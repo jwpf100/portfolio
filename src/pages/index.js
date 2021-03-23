@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import HeroImageFull from '../components/HeroImageFull'
 import TestContent from '../components/TestContent'
 import HeroText from '../components/HeroText'
+import HeroContactIcons from '../components/HeroContactIcons'
 
 // data
 
@@ -24,7 +25,9 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <HeroImageFull sources={heroImages}>
-        <HeroText />
+        <HeroText>
+          <HeroContactIcons />
+        </HeroText>
       </HeroImageFull>
       <TestContent />
     </Layout>

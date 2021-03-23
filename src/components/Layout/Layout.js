@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import styled from '@emotion/styled'
 
 // Add Fonts
+import '@fontsource/montserrat'
+import '@fontsource/open-sans'
 
 const Layout = ({ children, className }) => (
   <>
