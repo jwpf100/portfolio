@@ -13,6 +13,8 @@ import ContentBlock from '../components/ContentBlock'
 import TextImageSection from '../components/TextImageSection'
 import SkillsSection from '../components/SkillsSection'
 import ExperienceSection from '../components/ExperienceSection'
+import ProjectsSection from '../components/ProjectsSection'
+import ProjectCard from '../components/ProjectCard'
 
 // data
 
@@ -35,6 +37,8 @@ const IndexPage = ({ data }) => {
 
   const profileImage = getImage(data.aboutMeImage)
 
+  const project1Image = getImage(data.project1Image)
+
   return (
     <Layout>
       <HeroImageFull sources={heroImages} element={element}>
@@ -52,6 +56,11 @@ const IndexPage = ({ data }) => {
       </ContentBlock>
       <ContentBlock>
         <ExperienceSection />
+      </ContentBlock>
+      <ContentBlock color>
+        <ProjectsSection>
+          <ProjectCard image={project1Image} />
+        </ProjectsSection>
       </ContentBlock>
     </Layout>
   )
@@ -78,6 +87,13 @@ export const pageQuery = graphql`
       }
     }
     aboutMeImage: file(relativePath: { eq: "profile/profile-glacier.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED)
+      }
+    }
+    project1Image: file(
+      relativePath: { eq: "projects/essential-coaching.jpg" }
+    ) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED)
       }
