@@ -11,8 +11,7 @@ const HeroText = ({ children, className }) => (
             className="text-uppercase display-2 font-weight-bold mb-0"
             css={{ fontWeight: 800 }}
           >
-            Joe{' '}
-            <span className="text-portfolio-highlight-flowers">Fletcher</span>
+            Joe <span className="text-pf-flowers">Fletcher</span>
           </h1>
           <h2 className="h4 font-weight-normal mb-5">
             Front End Web Developer

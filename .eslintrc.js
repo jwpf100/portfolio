@@ -24,6 +24,7 @@ module.exports = {
     'no-alert': 0,
     'no-await-in-loop': 0,
     'no-return-assign': ['error', 'except-parens'],
+    'prefer-rest-params': 1,
     'no-restricted-syntax': [
       2,
       'ForInStatement',
@@ -48,6 +49,7 @@ module.exports = {
       2,
       {
         allowTaggedTemplates: true,
+        allowTernary: true,
       },
     ],
     'no-param-reassign': [
