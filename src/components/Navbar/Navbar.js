@@ -46,12 +46,19 @@ const Navbar = ({ sticky, className }) => (
 )
 
 const StyledNavbar = styled(Navbar)`
+  position: absolute;
+  width: 100%;
+
   nav.navbar {
     background: #fff;
     padding-top: 0;
     padding-bottom: 0;
     -webkit-box-shadow: 0 1px 0 #ddd;
     box-shadow: 0 1px 0 #ddd;
+  }
+  button.navbar-toggler {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   nav.navbar a.nav-link {
     top: 1px;
