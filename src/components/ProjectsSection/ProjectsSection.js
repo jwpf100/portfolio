@@ -2,11 +2,6 @@ import React from 'react'
 import styled from '@emotion/styled'
 import PropTypes from 'prop-types'
 
-import inputData from '../../pagesInput/experience'
-import ProjectCard from '../ProjectCard'
-
-const { experienceArray } = inputData
-
 const ProjectsSection = ({ id, children, className, image }) => (
   <div className={['', className].join(' ')}>
     <h2 className="text-uppercase text-pf-flowers lined mb-4">Projects</h2>

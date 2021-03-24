@@ -6,10 +6,7 @@ const inputData = {
       company: '',
       country: '',
       text: [
-        'Learning software development skills, primarily JavaScript and the MERN stack, but ensuring that the main focus is on the fundamental concepts',
-        // 'Mentors: I sought out three mentors in the industry as I realise the importance of feedback to develop as quickly as possible.  They give me feedback on coding, work on projects with me, and generally help guide my development',
-        // 'FreeCodeCamp: Responsive Web Design, Javascript Algorithms & Data Structures, APIs and Microservices',
-        // 'Codecademy: Web Development Career Path',
+        "After 8 years of leadership roles in E-Commerce, I decided to follow my passion of software development. Under the instruction of several industry mentors I've retrained, learning software development; primarily JavaScript and the MERN stack.  I've delivered a number of projects to demonstrate these skills, including a commercial site for a small business that can be seen in the projects section below.",
       ],
     },
     {
@@ -18,8 +15,8 @@ const inputData = {
       company: '',
       country: '',
       text: [
-        'Took 8 months out to travel to Asia and South America',
-        // 'Obtained advanced certificate in scuba diving, learnt Spanish, hiked a lot!',
+        'I took 8 months out as a career break to travel to Asia and South America.',
+        'While away, I dived with Manta Ray in Indonesia, learned to surf in Brazil, hiked across glaciers in Patagonia, started learning Spanish, completed my advanced certificate in scuba diving and spent weeks in the Peruvian jungle!',
       ],
     },
     {
@@ -28,7 +25,8 @@ const inputData = {
       company: 'Wolverine Worldwide',
       country: '',
       text: [
-        'Adaptable and credible business leader bought in to lead E-Commerce team (15 heads) responsible for 4 branded sites, shipping 150k units across Europe  ',
+        'As an adaptable and credible business leader I was bought in to lead the E-Commerce team (15 people) responsible for 4 branded sites, shipping 150k units across Europe.',
+        'During this time I was responsible for delivering a rich digital experience across all Wolverine sites, creating and implementing site content, improving user experience, managing digital marketing and rolling out new technologies.  I project managed multiple site roll-outs, hitting tight business deadlines while ensuring existing site performance was not impacted.',
         // 'Moved into the commercial side of the business from finance after being highlighted as a rising star within the organisation',
         // 'Responsible for delivering a rich digital experience, creating and implementing on site content, improving user experience and rolling out new technologies. ',
         // 'Project managed multiple site rollouts, hitting tight business deadlines while ensuring existing site performance was not impacted.  ',
@@ -41,8 +39,8 @@ const inputData = {
       company: 'Wolverine Worldwide',
       country: '',
       text: [
-        'Senior E-Commerce team member, responsible for technical projects, operations and analysis, with 3 direct reports ',
-        // 'Managed the transition of EU and CA platforms to Demandware, requiring organisation of multiple teams across the organisation including Web Development and IT',
+        'As a senior manager, I was responsible for technical projects, operations and analysis, with 3 direct reports.',
+        'I project managed the transition of EU and CA platforms to Demandware, worked closely with dev teams to implement site changes and 3rd party integrations, and launched and managed customer retention programs.  As the critical link between the commercial and technical sides of the business, my strong communication and team working skills were invaluable.',
         // 'Worked closely with development teams to implement site UX changes and integrate 3rd party services',
         // 'Launched and managed CRM program ',
         // 'A critical interface between the commercial and technical sides of the business, developing strong communication skills to explain financial and operational information to commercial leads  ',

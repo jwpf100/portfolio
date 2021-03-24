@@ -2,38 +2,55 @@ import React from 'react'
 import styled from '@emotion/styled'
 import PropTypes from 'prop-types'
 import ProjectImage from '../ProjectImage'
+import MainButton from '../MainButton'
 import TextAnchor from '../TextAnchor'
+import LineSpacer from '../LineSpacer'
 
-const TextImageSection = ({ id, children, className, image }) => (
+const TextImageSection = ({
+  id,
+  children,
+  className,
+  image,
+  title,
+  lead,
+  text,
+  bullets,
+  links,
+}) => (
   <div className={['row', className].join(' ')}>
-    <div className="col-lg-6 mt-3 mb-4 mb-lg-0">
-      <h2 className="text-uppercase text-pf-med mb-4">Essential Coaching</h2>
-      <p className="lead">
-        Responsive website created for local small business.
-      </p>
-      <p>
-        A small business website, designed to provide information, contact
-        details and booking options for Essential Coaching, a small coaching
-        business.
-      </p>
+    <div className="col-lg-6 mb-4 mb-lg-0">
+      <h2 className="text-uppercase text-pf-med mb-4">{title}</h2>
+      <p className="lead">{lead}</p>
+      {text.map(para => (
+        <p>{para}</p>
+      ))}
       <ul>
-        <li>Built with Gatsby 3.0 for React</li>
-        <li>Styled using Bootstrap, Emotion and SASS</li>
-        <li>Continuous integration with Github Actions</li>
-        <li>Storybook is used for visual testing</li>
-        <li>Hosted on Amazon S3 with CloudFront CDN</li>
+        {bullets.map(bullet => (
+          <li>{bullet}</li>
+        ))}
       </ul>
-      <TextAnchor href="https://www.essentialcoaching.co.uk">
-        <p className="">www.essentialcoaching.co.uk</p>
-      </TextAnchor>
     </div>
-    <div className="col-lg-6">
+    <div className="col-lg-6 py-2 d-flex align-items-center">
       <ProjectImage image={image} />
     </div>
+    <div className="pt-3 text-muted text-center">
+      {links.map(link => (
+        <TextAnchor href={link.link}>
+          <MainButton label={link.title} className="" primary />
+        </TextAnchor>
+      ))}
+    </div>
+    <LineSpacer />
   </div>
 )
 
-const StyledTextImageSection = styled(TextImageSection)``
+const StyledTextImageSection = styled(TextImageSection)`
+  padding-top: 50px;
+
+  @media (max-width: 768px) {
+    padding-top: 25px;
+  }
+`
 
 export default StyledTextImageSection
 

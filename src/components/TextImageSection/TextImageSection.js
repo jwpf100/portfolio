@@ -8,16 +8,22 @@ const TextImageSection = ({ id, children, className, image }) => (
     <div className="col-lg-6 mb-4 mb-lg-0">
       <h2 className="text-uppercase text-pf-flowers lined mb-4">About Me</h2>
       <p className="lead">
-        Front End Developer with background in E-Commerce and Finance
+        Front End Developer with background in E-Commerce <br /> and Finance
       </p>
+      <p>Driven and capable software developer with an eye for detail. </p>
+      <p> Passionate about tech, a strong communicator and team player.</p>
+
       <p>
-        Driven and capable software developer with an eye for detail. Passionate
-        about tech, a strong communicator and team player. 8 years of leadership
-        roles in E-Commerce have provided me with extensive commercial
-        knowledge, the skills to manage multiple varied stakeholders and a keen
-        understanding of front-end user experience. After intensive study, and
-        hands-on experience creating custom websites, I am ready to apply my
-        unique skillset to help businesses achieve their goals.{' '}
+        8 years of leadership roles in E-Commerce have provided me with
+        extensive commercial knowledge, the skills to manage multiple varied
+        stakeholders and a keen understanding of front-end user experience.{' '}
+      </p>
+
+      <p>
+        {' '}
+        Now after intensive study, and hands-on experience creating custom
+        websites, I am ready to apply my unique skillset to help businesses
+        achieve their goals.{' '}
       </p>
     </div>
     <div className="col-lg-6">

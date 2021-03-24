@@ -12,7 +12,7 @@ const ProfileImage = ({ className, image }) => (
 )
 
 const StyledProfileImage = styled(ProfileImage)`
-  width: 300px;
+  width: 450px;
   height: auto;
 `
 
