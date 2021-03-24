@@ -9,8 +9,8 @@ const ContentBlock = ({ id, children, className, color, navBarMargin }) => (
 )
 
 const StyledContentBlock = styled(ContentBlock)`
-  margin-top: ${(props) => (props.navBarMargin ? '58px' : '0px')};
-  background-color: ${(props) => (props.color ? '#ddd' : 'white')};
+  margin-top: ${props => (props.navBarMargin ? '58px' : '0px')};
+  background-color: ${props => (props.color ? '#ddd' : 'white')};
   padding-top: 100px;
   padding-bottom: 100px;
 
