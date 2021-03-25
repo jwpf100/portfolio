@@ -9,9 +9,9 @@ import '@fontsource/open-sans'
 
 const Layout = ({ children, className }) => (
   <>
-    <Helmet>
+    {/* <Helmet>
       <style>{`body {position: relative;}`}</style>
-    </Helmet>
+    </Helmet> */}
     <main data-bs-spy="scroll" data-bs-target="#navbar" className={className}>
       {children}
     </main>
