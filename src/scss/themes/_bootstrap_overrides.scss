@@ -1,0 +1,46 @@
+/* $theme-colors: (
+  "primary": #a9a9a9,
+  "secondary": #efefef,
+  "info": #caebf2,
+  "highlight": #f7882f,
+  "white": white,
+  "light": #f8f9fa,
+  "dark": #343a40,
+  "gray": #6c757d,
+);
+*/
+
+$theme-colors: (
+  "pf-one": #dddfd4,
+  "pf-two": #fae596,
+  "pf-three": #3fb0ac,
+  "pf-four": #173e43,
+  // Highlight Text
+  "pf-flowers": #ce3f32,
+  "pf-dark": #202020,
+  // Dark Text
+  "pf-med": #3f3f3f,
+  // Light Text
+  "pf-light": #707070,
+  "pf-vlight": #ddd,
+  "pf-white": #ffffff,
+);
+
+// Set the main text colour to be used throughout the site.
+
+$body-color: #3f3f3f;
+
+//Set Container Max Widths
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1140px,
+);
+
+// If issues with scrolling on link change
+
+// $enable-reduced-motion: true;
+$enable-smooth-scroll: true;
