@@ -37,8 +37,8 @@ const StyledHeroImageFull = styled(HeroImageFull)`
 export default StyledHeroImageFull
 
 HeroImageFull.propTypes = {
-  sources: PropTypes.object,
-  children: PropTypes.array,
+  sources: PropTypes.array,
+  children: PropTypes.node,
   className: PropTypes.string,
 }
 

@@ -47,7 +47,7 @@ const StyledSkillsSection = styled(SkillsSection)`
 export default StyledSkillsSection
 
 SkillsSection.propTypes = {
-  children: PropTypes.object,
+  children: PropTypes.node,
   id: PropTypes.string,
   className: PropTypes.string,
   image: PropTypes.object,

@@ -45,6 +45,7 @@ export default StyledTimeLine
 
 TimeLine.propTypes = {
   className: PropTypes.string,
+  children: PropTypes.node,
 }
 
 TimeLine.defaultProps = {}

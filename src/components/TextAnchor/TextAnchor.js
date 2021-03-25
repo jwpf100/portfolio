@@ -26,20 +26,6 @@ const TextAnchor = ({ children, phone, bs, href, className }) => {
       {children}
     </a>
   )
-
-  /*
-(
-  <a
-    type="link"
-    className={[className, bs, ''].join(' ')}
-    target="_blank"
-    rel="noreferrer"
-    href={href}
-  >
-    {children}
-  </a>
-)
-*/
 }
 const StyledTextAnchor = styled(TextAnchor)`
   text-decoration: none;
@@ -52,7 +38,7 @@ const StyledTextAnchor = styled(TextAnchor)`
 export default StyledTextAnchor
 
 TextAnchor.propTypes = {
-  children: PropTypes.array,
+  children: PropTypes.node,
   className: PropTypes.string,
   href: PropTypes.string,
   phone: PropTypes.bool,

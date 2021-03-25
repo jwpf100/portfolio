@@ -3,16 +3,15 @@ import styled from '@emotion/styled'
 import PropTypes from 'prop-types'
 import ContactBadge from '../ContactBadge'
 
-import inputData from '../../pagesInput/contact'
-
-const { contactArray } = inputData
+import { mainContact } from '../../pagesInput/heroContact'
 
 const ContactSection = ({ id, children, className, image }) => (
   <div className={['', className].join(' ')}>
     <h2 className="text-uppercase text-pf-flowers lined mb-4">Contact</h2>
     <div className={['row', className].join(' ')}>
-      {contactArray.map(contact => (
+      {mainContact.map((contact, index) => (
         <ContactBadge
+          key={index}
           faIcon={contact.faIcon}
           title={contact.title}
           text={contact.text}
@@ -58,7 +57,7 @@ const StyledContactSection = styled(ContactSection)`
 export default StyledContactSection
 
 ContactSection.propTypes = {
-  children: PropTypes.object,
+  children: PropTypes.node,
   id: PropTypes.string,
   className: PropTypes.string,
   image: PropTypes.object,

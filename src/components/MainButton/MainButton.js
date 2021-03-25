@@ -25,6 +25,7 @@ const StyledMainButton = styled(MainButton)`
 export default StyledMainButton
 
 MainButton.propTypes = {
+  href: PropTypes.string,
   /**
    * Is this the principal call to action on the page?
    */
@@ -49,6 +50,5 @@ MainButton.propTypes = {
 
 MainButton.defaultProps = {
   primary: false,
-  onClick: () => navigate('/'),
   bs: '',
 }

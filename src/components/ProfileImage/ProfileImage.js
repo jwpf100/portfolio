@@ -20,6 +20,7 @@ export default StyledProfileImage
 
 ProfileImage.propTypes = {
   className: PropTypes.string,
+  image: PropTypes.object,
 }
 
 ProfileImage.defaultProps = {}

@@ -55,10 +55,15 @@ const StyledTextImageSection = styled(TextImageSection)`
 export default StyledTextImageSection
 
 TextImageSection.propTypes = {
-  children: PropTypes.object,
+  children: PropTypes.node,
   id: PropTypes.string,
   className: PropTypes.string,
   image: PropTypes.object,
+  title: PropTypes.string,
+  lead: PropTypes.string,
+  text: PropTypes.array,
+  bullets: PropTypes.array,
+  links: PropTypes.array,
 }
 
 TextImageSection.defaultProps = {

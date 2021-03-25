@@ -4,7 +4,6 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import PropTypes from 'prop-types'
 import Layout from '../components/Layout'
 import HeroImageFull from '../components/HeroImageFull'
-import TestContent from '../components/TestContent'
 import HeroText from '../components/HeroText'
 import HeroContactIcons from '../components/HeroContactIcons'
 import Navbar from '../components/Navbar'
@@ -16,7 +15,7 @@ import ExperienceSection from '../components/ExperienceSection'
 import ProjectsSection from '../components/ProjectsSection'
 import ProjectCard from '../components/ProjectCard'
 import ContactSection from '../components/ContactSection'
-
+import Footer from '../components/Footer'
 // data
 import inputData from '../pagesInput/projects'
 // markup
@@ -93,6 +92,7 @@ const IndexPage = ({ data }) => {
       <ContentBlock>
         <ContactSection />
       </ContentBlock>
+      <Footer />
     </Layout>
   )
 }

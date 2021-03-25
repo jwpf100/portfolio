@@ -13,11 +13,11 @@ const SkillsIconSection = ({ children, className }) => (
       <SkillBadge icon={['fab', 'css3-alt']} name="CSS 3" />
       <SkillBadge icon={['fab', 'js']} name="JavaScript" />
       <SkillBadge icon={['fab', 'react']} name="React" />
+      <SkillBadge icon={['fab', 'bootstrap']} name="Bootstrap" />
       <SkillBadge icon={['fab', 'sass']} name="SASS" />
       <SkillBadge icon={['fab', 'aws']} name="AWS" />
       <SkillBadge icon={['fab', 'git']} name="git" />
       <SkillBadge icon={['fab', 'github']} name="github" />
-      <SkillBadge icon={['fab', 'bootstrap']} name="Bootstrap" />
       <SkillBadge icon={['fab', 'node']} name="Node.js & Express" />
       <SkillBadge icon={['fas', 'database']} name="MongoDB MySQL GraphQL" />
       <SkillBadge icon={['fas', 'tools']} name="ESLint Mocha Docker" />
@@ -33,7 +33,7 @@ const StyledSkillsIconSection = styled(SkillsIconSection)`
 export default StyledSkillsIconSection
 
 SkillsIconSection.propTypes = {
-  children: PropTypes.array,
+  children: PropTypes.node,
   className: PropTypes.string,
 }
 
