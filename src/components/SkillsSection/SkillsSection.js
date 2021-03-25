@@ -1,10 +1,9 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import PropTypes from 'prop-types'
-import ProfileImage from '../ProfileImage'
 import SkillsIconSection from '../SkillsIconSection'
 
-const TextImageSection = ({ id, children, className, image }) => (
+const SkillsSection = ({ id, children, className, image }) => (
   <div className={['row', className].join(' ')}>
     <div className="col-lg-12 mb-4 mb-lg-0">
       <h2 className="text-uppercase text-pf-flowers lined mb-4">
@@ -15,7 +14,7 @@ const TextImageSection = ({ id, children, className, image }) => (
   </div>
 )
 
-const StyledTextImageSection = styled(TextImageSection)`
+const StyledSkillsSection = styled(SkillsSection)`
   .lined {
     display: inline-block;
     position: relative;
@@ -45,16 +44,16 @@ const StyledTextImageSection = styled(TextImageSection)`
   }
 `
 
-export default StyledTextImageSection
+export default StyledSkillsSection
 
-TextImageSection.propTypes = {
+SkillsSection.propTypes = {
   children: PropTypes.object,
   id: PropTypes.string,
   className: PropTypes.string,
   image: PropTypes.object,
 }
 
-TextImageSection.defaultProps = {
+SkillsSection.defaultProps = {
   children: '',
   className: '',
 }

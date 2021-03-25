@@ -2,47 +2,25 @@ import React from 'react'
 import styled from '@emotion/styled'
 import PropTypes from 'prop-types'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faEnvelope as faEnvelopeSolid,
-  faDatabase,
-  faTools,
-  faToolbox,
-} from '@fortawesome/free-solid-svg-icons'
-import { faEnvelope as faEnvelopeRegular } from '@fortawesome/free-regular-svg-icons'
-import {
-  faGithub,
-  faLinkedin,
-  faWordpress,
-  faWordpressSimple,
-  faHtml5,
-  faCss3,
-  faCss3Alt,
-  faJs,
-  faNode,
-  faBootstrap,
-  faGit,
-  faGitAlt,
-  faGithubAlt,
-  faGithubSquare,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons'
+import '../../utilities/fontawsome'
 
 import SkillBadge from '../SkillBadge'
 
 const SkillsIconSection = ({ children, className }) => (
   <div className={[className, ''].join('')}>
     <div className="row d-flex flex-wrap justify-content-around">
-      <SkillBadge icon={faHtml5} name="HTML 5" />
-      <SkillBadge icon={faCss3Alt} name="CSS 3" />
-      <SkillBadge icon={faJs} name="JavaScript" />
-      <SkillBadge icon={faReact} name="React" />
-      <SkillBadge icon={faGit} name="git" />
-      <SkillBadge icon={faGithub} name="github" />
-      <SkillBadge icon={faBootstrap} name="Bootstrap" />
-      <SkillBadge icon={faNode} name="Node.js & Express" />
-      <SkillBadge icon={faDatabase} name="MongoDB MySQL GraphQL" />
-      <SkillBadge icon={faTools} name="ESLint Mocha Docker" />
+      <SkillBadge icon={['fab', 'html5']} name="HTML 5" />
+      <SkillBadge icon={['fab', 'css3-alt']} name="CSS 3" />
+      <SkillBadge icon={['fab', 'js']} name="JavaScript" />
+      <SkillBadge icon={['fab', 'react']} name="React" />
+      <SkillBadge icon={['fab', 'sass']} name="SASS" />
+      <SkillBadge icon={['fab', 'aws']} name="AWS" />
+      <SkillBadge icon={['fab', 'git']} name="git" />
+      <SkillBadge icon={['fab', 'github']} name="github" />
+      <SkillBadge icon={['fab', 'bootstrap']} name="Bootstrap" />
+      <SkillBadge icon={['fab', 'node']} name="Node.js & Express" />
+      <SkillBadge icon={['fas', 'database']} name="MongoDB MySQL GraphQL" />
+      <SkillBadge icon={['fas', 'tools']} name="ESLint Mocha Docker" />
     </div>
   </div>
 )
