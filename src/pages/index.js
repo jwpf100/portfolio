@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import PropTypes from 'prop-types'
 import Layout from '../components/Layout'
+import SEO from '../components/Seo'
 import HeroImageFull from '../components/HeroImageFull'
 import HeroText from '../components/HeroText'
 import HeroContactIcons from '../components/HeroContactIcons'
@@ -59,6 +60,10 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
+      <SEO
+        title="Joe Fletcher"
+        description="Front end developer with background in E-Commerce and Finance"
+      />
       <HeroImageFull sources={heroImages} element={element}>
         <HeroText>
           <HeroContactIcons />

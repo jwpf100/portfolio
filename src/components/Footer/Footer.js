@@ -8,7 +8,6 @@ import TextAnchor from '../TextAnchor'
 import { footerContact } from '../../pagesInput/heroContact'
 
 const footerArray = footerContact
-console.log(footerArray)
 
 const ContentBlock = ({ id, children, className, color, navBarMargin }) => (
   <footer id={id} className={[className].join(' ')}>
