@@ -15,6 +15,7 @@ import SkillsSection from '../components/SkillsSection'
 import ExperienceSection from '../components/ExperienceSection'
 import ProjectsSection from '../components/ProjectsSection'
 import ProjectCard from '../components/ProjectCard'
+import ContactSection from '../components/ContactSection'
 
 // data
 import inputData from '../pagesInput/projects'
@@ -88,6 +89,9 @@ const IndexPage = ({ data }) => {
             />
           ))}
         </ProjectsSection>
+      </ContentBlock>
+      <ContentBlock>
+        <ContactSection />
       </ContentBlock>
     </Layout>
   )
