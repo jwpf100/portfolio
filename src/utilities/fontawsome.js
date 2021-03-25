@@ -32,6 +32,7 @@ import {
   faReact,
   faSass,
   faAws,
+  faLinkedinIn,
 } from '@fortawesome/free-brands-svg-icons'
 
 library.add(
@@ -58,6 +59,7 @@ library.add(
   faGithubSquare,
   faReact,
   faSass,
-  faAws
+  faAws,
+  faLinkedinIn
   // more icons go here
 )

@@ -22,8 +22,8 @@ const StyledSkillBadge = styled(SkillBadge)`
 export default StyledSkillBadge
 
 SkillBadge.propTypes = {
-  children: PropTypes.array,
-  icon: PropTypes.object,
+  children: PropTypes.node,
+  icon: PropTypes.array,
   name: PropTypes.string,
   className: PropTypes.string,
 }

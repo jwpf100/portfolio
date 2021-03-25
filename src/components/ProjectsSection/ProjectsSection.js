@@ -42,7 +42,7 @@ const StyledProjectsSection = styled(ProjectsSection)`
 export default StyledProjectsSection
 
 ProjectsSection.propTypes = {
-  children: PropTypes.object,
+  children: PropTypes.node,
   id: PropTypes.string,
   className: PropTypes.string,
   image: PropTypes.object,

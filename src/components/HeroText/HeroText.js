@@ -50,7 +50,7 @@ const StyledHeroText = styled(HeroText)`
 export default StyledHeroText
 
 HeroText.propTypes = {
-  children: PropTypes.array,
+  children: PropTypes.node,
   className: PropTypes.string,
 }
 

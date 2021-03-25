@@ -15,30 +15,23 @@ const ContactBadge = ({
   href,
   children,
   className,
-}) => {
-  console.log(faIcon)
-  console.log(faIcon[0])
-  console.log(faIcon[1])
-  return (
-    <div className={[className, 'col-lg-3 col-sm-6 mb-4 mb-lg-0'].join(' ')}>
-      <TextAnchor
-        bs="px-4 py-2 py-sm-5 text-center shadow-sm d-block text-anchor"
-        href={href}
-        phone={phone}
-      >
-        <FontAwesomeIcon
-          className={['icon mb-4'].join(' ')}
-          icon={[faIcon[0], faIcon[1]]}
-          size="3x"
-        />
-        <h4 className="contact-item-title h5 text-uppercase">{title}</h4>
-        <p className={['text-break mb-0', classNameSpecific].join(' ')}>
-          {text}
-        </p>
-      </TextAnchor>
-    </div>
-  )
-}
+}) => (
+  <div className={[className, 'col-lg-3 col-sm-6 mb-4 mb-lg-0'].join(' ')}>
+    <TextAnchor
+      bs="px-4 py-2 py-sm-5 text-center shadow-sm d-block text-anchor"
+      href={href}
+      phone={phone}
+    >
+      <FontAwesomeIcon
+        className={['icon mb-4'].join(' ')}
+        icon={[faIcon[0], faIcon[1]]}
+        size="3x"
+      />
+      <h4 className="contact-item-title h5 text-uppercase">{title}</h4>
+      <p className={['text-break mb-0', classNameSpecific].join(' ')}>{text}</p>
+    </TextAnchor>
+  </div>
+)
 
 const StyledContactBadge = styled(ContactBadge)`
   .text-small {
@@ -94,7 +87,7 @@ const StyledContactBadge = styled(ContactBadge)`
 export default StyledContactBadge
 
 ContactBadge.propTypes = {
-  children: PropTypes.array,
+  children: PropTypes.node,
   faIcon: PropTypes.array,
   title: PropTypes.string,
   text: PropTypes.string,

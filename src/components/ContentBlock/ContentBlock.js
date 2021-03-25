@@ -23,7 +23,7 @@ const StyledContentBlock = styled(ContentBlock)`
 export default StyledContentBlock
 
 ContentBlock.propTypes = {
-  children: PropTypes.object,
+  children: PropTypes.node,
   id: PropTypes.string,
   className: PropTypes.string,
   navBarMargin: PropTypes.bool,

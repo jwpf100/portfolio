@@ -12,8 +12,9 @@ const ExperienceSection = ({ id, children, className, image }) => (
   <div className={['', className].join(' ')}>
     <h2 className="text-uppercase text-pf-flowers lined mb-4">Experience</h2>
     <TimeLine>
-      {experienceArray.map((item) => (
+      {experienceArray.map((item, index) => (
         <TimeLineItem
+          key={index}
           year={item.year}
           title={item.title}
           company={item.company}
@@ -57,7 +58,7 @@ const StyledExperienceSection = styled(ExperienceSection)`
 export default StyledExperienceSection
 
 ExperienceSection.propTypes = {
-  children: PropTypes.object,
+  children: PropTypes.node,
   id: PropTypes.string,
   className: PropTypes.string,
   image: PropTypes.object,

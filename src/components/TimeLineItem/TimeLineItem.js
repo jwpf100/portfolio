@@ -2,8 +2,8 @@ import React from 'react'
 import styled from '@emotion/styled'
 import PropTypes from 'prop-types'
 
-const TimeLineItem = ({ className, year, title, company, text }) => (
-  <li className={[className, 'ml-3 pb-4'].join(' ')}>
+const TimeLineItem = ({ key, className, year, title, company, text }) => (
+  <li key={key} className={[className, 'ml-3 pb-4'].join(' ')}>
     <div className="timeline-arrow" />
     <div className="row g-0">
       <div className="col-lg-5 mb-4 mb-lg-0 px-3">
@@ -15,7 +15,7 @@ const TimeLineItem = ({ className, year, title, company, text }) => (
         <span className="small text-muted">United Kingdom</span>
       </div>
       <div className="col-lg-7">
-        {text.map((item) => (
+        {text.map(item => (
           <p className="text-muted">{item}</p>
         ))}
       </div>
@@ -48,6 +48,11 @@ export default StyledTimeLineItem
 
 TimeLineItem.propTypes = {
   className: PropTypes.string,
+  year: PropTypes.string,
+  title: PropTypes.string,
+  company: PropTypes.string,
+  text: PropTypes.array,
+  key: PropTypes.number,
 }
 
 TimeLineItem.defaultProps = {}
