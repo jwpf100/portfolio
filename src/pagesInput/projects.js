@@ -44,7 +44,7 @@ const inputData = {
         'Hosted on Heroku',
       ],
       links: [
-        { title: 'Live Site', link: 'https://www.essentialcoaching.com/' },
+        { title: 'Live Site', link: 'https://www.essentialcoaching.co.uk/' },
         {
           title: 'github Repository',
           link: 'https://github.com/jwpf100/essential-coaching-app',
@@ -81,6 +81,7 @@ const inputData = {
       text: [
         'Designed as an addition to the Essential Coaching App.',
         'The React app consumes data from my node API containing an unspecified number of blog posts.  The main page is a summary of all blog posts, each can be clicked through to see the individual blog post in detail.',
+        'Note the navbar is not functional and is included as decoration.',
       ],
       bullets: [
         'Built with React',
@@ -104,7 +105,7 @@ const inputData = {
       title: 'Blog Back End',
       lead: 'Blogging app back end created with Node, Express and MongoDB',
       text: [
-        'The back end allows users to Create, Read, Update and Destroy rich text blogposts.  It also serves as an API, outputting all data in json format for the front end to consume.  A rich text editor has been added to ...',
+        'The back end allows users to Create, Read, Update and Destroy rich text blogposts.  It also serves as an API, outputting all data in json format for the front end to consume.  A rich text editor has been integrated to allow styling of body text.',
       ],
       bullets: [
         'Built with Node/Express',
@@ -152,7 +153,7 @@ const inputData = {
       links: [
         {
           title: 'Live Site',
-          link: 'https://josephfletcher.co.uk/',
+          link: 'https://josephfletcher.co.uk/portfolio-v1',
         },
         {
           title: 'github Repository',
