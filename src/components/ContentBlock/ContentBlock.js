@@ -15,7 +15,7 @@ const StyledContentBlock = styled(ContentBlock)`
   padding-bottom: 100px;
 
   @media (max-width: 768px) {
-    padding-top: 50px;
+    padding-top: 75px;
     padding-bottom: 50px;
   }
 `
