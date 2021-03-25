@@ -17,12 +17,12 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: 'src/images/icon.png',
+        icon: 'src/images/favicon_io/favicon-32x32.png',
         name: `Joe Fletcher Portfolio`,
         short_name: `Joe Fletcher`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
       },
     },
