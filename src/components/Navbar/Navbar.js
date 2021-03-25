@@ -6,12 +6,13 @@ import TextAnchor from '../TextAnchor'
 const Navbar = ({ sticky, className }) => (
   <header className={className}>
     <nav
+      id="navbar"
       className={[
         'navbar navbar-expand-md navbar-light bg-white border-bottom',
         sticky ? 'fixed-top' : '',
       ].join(' ')}
     >
-      <div className="container-xl ">
+      <div className="container-xl bg-white">
         <a className="navbar-brand text-pf-flowers" href="#">
           Joe Fletcher
         </a>
@@ -27,15 +28,35 @@ const Navbar = ({ sticky, className }) => (
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link" href="#">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
+              <a className="nav-link" href="#about-me">
+                About Me
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#skills">
+                Skills
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#experience">
+                Experience
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#projects">
+                Projects
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">
+                Contact
               </a>
             </li>
           </ul>
@@ -48,6 +69,7 @@ const Navbar = ({ sticky, className }) => (
 const StyledNavbar = styled(Navbar)`
   position: absolute;
   width: 100%;
+  z-index: 1000;
 
   nav.navbar {
     background: #fff;
@@ -79,6 +101,9 @@ const StyledNavbar = styled(Navbar)`
   nav.navbar .navbar-brand {
     padding-top: 0;
     padding-bottom: 0;
+  }
+  div {
+    background-color: white;
   }
 `
 

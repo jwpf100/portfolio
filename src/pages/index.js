@@ -66,16 +66,16 @@ const IndexPage = ({ data }) => {
       </HeroImageFull>
       <div ref={element} />
       <Navbar sticky={isSticky} />
-      <ContentBlock navBarMargin>
+      <ContentBlock id="about-me" navBarMargin>
         <TextImageSection image={profileImage} />
       </ContentBlock>
-      <ContentBlock color>
+      <ContentBlock id="skills" color>
         <SkillsSection />
       </ContentBlock>
-      <ContentBlock>
+      <ContentBlock id="experience">
         <ExperienceSection />
       </ContentBlock>
-      <ContentBlock color>
+      <ContentBlock id="projects" color>
         <ProjectsSection>
           {projectArray.map(project => (
             <ProjectCard
@@ -89,7 +89,7 @@ const IndexPage = ({ data }) => {
           ))}
         </ProjectsSection>
       </ContentBlock>
-      <ContentBlock>
+      <ContentBlock id="contact">
         <ContactSection />
       </ContentBlock>
       <Footer />
