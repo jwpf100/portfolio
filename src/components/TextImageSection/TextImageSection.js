@@ -8,7 +8,7 @@ const TextImageSection = ({ id, children, className, image }) => (
     <div className="col-lg-6 mb-4 mb-lg-0">
       <h2 className="text-uppercase text-pf-flowers lined mb-4">About Me</h2>
       <p className="lead">
-        Front End Developer with background in E-Commerce <br /> and Finance
+        Front End Developer with background in E-Commerce <wbr /> and Finance
       </p>
       <p>Driven and capable software developer with an eye for detail. </p>
       <p> Passionate about tech, a strong communicator and team player.</p>
