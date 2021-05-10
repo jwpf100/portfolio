@@ -11,7 +11,7 @@ import TextAnchor from '../TextAnchor'
 
 const HeroContactIcons = ({ children, className }) => (
   <div className={[className, 'row'].join('')}>
-    <div className="col-md-6 d-flex justify-content-around">
+    <div className="col-md-6 col-xl-5 d-flex justify-content-around">
       {heroContact.map((item, index) => (
         <TextAnchor key={index} href={item.href}>
           <FontAwesomeIcon icon={[item.faIcon[0], item.faIcon[1]]} size="3x" />

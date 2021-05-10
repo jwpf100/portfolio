@@ -6,7 +6,7 @@ const HeroText = ({ children, className }) => (
   <div className={className}>
     <div className="container clearfix">
       <div className="row">
-        <div className="col-md-8 text-white text-center text-md-start">
+        <div className="col-md-8 col-xxl-7 text-white text-center text-md-start">
           <h1
             className="text-uppercase display-2 font-weight-bold mb-0"
             css={{ fontWeight: 800 }}
@@ -14,7 +14,7 @@ const HeroText = ({ children, className }) => (
             Joe <span className="text-pf-flowers">Fletcher</span>
           </h1>
           <h2 className="h4 font-weight-normal mb-5">
-            Front End Web Developer
+            Web <br /> Developer
           </h2>
           {children}
         </div>
@@ -33,17 +33,28 @@ const StyledHeroText = styled(HeroText)`
   transition: all 0.3s;
   z-index: 10;
 
-@media (max-width: 768px) {
-  .content {
-    position: relative;
-    padding: 80px 0;
-    top: 0;
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+  br {
+    display: none;
   }
 
-  h1 {
-    font-weight: 800;
+  @media (max-width: 768px) {
+    .content {
+      position: relative;
+      padding: 80px 0;
+      top: 0;
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+
+    h1 {
+      font-weight: 800;
+    }
+  }
+
+  @media (min-width: 2450px) {
+    br {
+      display: inline;
+    }
   }
 `
 

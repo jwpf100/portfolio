@@ -1,33 +1,40 @@
-SetUp
+## Personal Portfolio
 
-Commitzen
+A portfolio designed to display some key information about me including:
 
-EsLint & Prettier:
+- Technical Skills
+- Work Experience
+- Projects
+- Contact Details
 
-prettier eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks babel-eslint @babel/core babel-eslint babel-loader babel-preset-react-app
+## Project Details
 
-?
+- Built with Gatsby
+- Styled with Bootstrap, Emotion, and SASS
+- Hosted on Amazon EC2 instance
 
-Emotion
+## Project Status
 
-@emotion/css @emotion/react @emotion/styled
+Complete. Currently hosted on Amazon EC2 but will move to S3 with Cloudfront CDN to reduce costs.
 
-FontSource
+## Project Screen Shots
 
-BootStrap
+## Installation and Setup Instructions
 
-Gatsby Image
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-PropTypes
+Installation:
 
-prop-types
+`npm install`
 
-React
+To Start Gatsby Server:
 
-Sass
+`npm start`
 
-gatsby-plugin-sass sass
+To Visit App:
 
-Simple Line Icons/FontAwesome?
+`localhost:8000`
 
-@fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+## Reflection
+
+TBC
