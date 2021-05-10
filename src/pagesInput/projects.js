@@ -53,6 +53,31 @@ const inputData = {
     },
     {
       number: 2,
+      title: 'React Weather App',
+      lead: 'React App allowing users to search weather forecasts',
+      text: [
+        'Users can search for current weather and 7 day forecast by city, country, postcode and lat/lon.  Searches can be saved to allow easy access upon returning to the app.',
+      ],
+      bullets: [
+        'Built with React',
+        'Styled with Bootstrap, SCSS and Styled Components',
+        'Hosted on AWS EC2 server',
+        'Consumes weatherbit.io API',
+        'Browser localstorage used to store saved searches',
+      ],
+      links: [
+        {
+          title: 'Live Site',
+          link: 'https://josephfletcher.co.uk/weather-app/',
+        },
+        {
+          title: 'github Repository',
+          link: 'https://github.com/jwpf100/react-weather-app',
+        },
+      ],
+    },
+    {
+      number: 3,
       title: 'React Daily Question',
       lead: 'React site displaying a random React interview question',
       text: [
@@ -75,7 +100,7 @@ const inputData = {
       ],
     },
     {
-      number: 3,
+      number: 4,
       title: 'React Blog Front End',
       lead: 'Blogging app front end created with React',
       text: [
@@ -101,7 +126,7 @@ const inputData = {
       ],
     },
     {
-      number: 4,
+      number: 5,
       title: 'Blog Back End',
       lead: 'Blogging app back end created with Node, Express and MongoDB',
       text: [
@@ -124,7 +149,7 @@ const inputData = {
       ],
     },
     {
-      number: 5,
+      number: 6,
       title: 'Blackjack',
       lead: 'Blackjack game created using vanilla CSS, HTML and JS.',
       text: [
@@ -143,7 +168,7 @@ const inputData = {
       ],
     },
     {
-      number: 6,
+      number: 7,
       title: 'Portfolio v1',
       lead: 'Original single page portfolio.',
       text: [
