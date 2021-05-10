@@ -14,7 +14,7 @@ const HeroText = ({ children, className }) => (
             Joe <span className="text-pf-flowers">Fletcher</span>
           </h1>
           <h2 className="h4 font-weight-normal mb-5">
-            Front End Web <br /> Developer
+            Web <br /> Developer
           </h2>
           {children}
         </div>
