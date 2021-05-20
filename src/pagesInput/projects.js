@@ -6,7 +6,7 @@ const inputData = {
       lead: 'Responsive website created for a local business.',
       text: [
         'A business website designed to provide information, contact details and booking options for Essential Coaching, a coaching business.',
-        'Currently in development as a redesign of the original project.  The main aim is to deliver a faster user experience and reduce monthly running costs.',
+        'Recently launched as a redesign of the original project.  The main aim was to deliver a faster user experience and reduce monthly running costs.',
       ],
       bullets: [
         'Built with Gatsby 3.0 for React',
@@ -19,8 +19,8 @@ const inputData = {
       ],
       links: [
         {
-          title: 'Live site (development)',
-          link: 'https://jwpf100-test-domain.com/',
+          title: 'Live site',
+          link: 'https://www.essentialcoaching.co.uk/',
         },
         {
           title: 'github repository',
@@ -44,7 +44,6 @@ const inputData = {
         'Hosted on Heroku',
       ],
       links: [
-        { title: 'Live Site', link: 'https://www.essentialcoaching.co.uk/' },
         {
           title: 'github Repository',
           link: 'https://github.com/jwpf100/essential-coaching-app',
