@@ -171,9 +171,7 @@ const inputData = {
       number: 7,
       title: 'Portfolio v1',
       lead: 'Original single page portfolio.',
-      text: [
-        'Created as part of a development project.  Made in vanilla HTML, CSS and JS.',
-      ],
+      text: ['Made in vanilla HTML, CSS and JS.'],
       bullets: [],
       links: [
         {
