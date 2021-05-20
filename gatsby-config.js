@@ -13,7 +13,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
-    'gatsby-plugin-offline',
+    // 'gatsby-plugin-offline',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -26,6 +26,7 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
+    `gatsby-plugin-remove-serviceworker`,
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-source-filesystem',

@@ -57,6 +57,7 @@ const IndexPage = ({ data }) => {
     project5Image,
     project6Image,
     project7Image,
+    project8Image,
   ]
 
   return (
