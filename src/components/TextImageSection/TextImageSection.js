@@ -21,9 +21,8 @@ const TextImageSection = ({ id, children, className, image }) => (
 
       <p>
         {' '}
-        Now after intensive study, and hands-on experience creating custom
-        websites, I am ready to apply my unique skillset to help businesses
-        achieve their goals.{' '}
+        After making the decision to retrain as a developer, I am applying my
+        unique skillset to help businesses achieve their goals.{' '}
       </p>
     </div>
     <div className="col-lg-6">

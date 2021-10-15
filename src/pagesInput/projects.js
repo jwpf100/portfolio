@@ -2,6 +2,30 @@ const inputData = {
   projectArray: [
     {
       number: 0,
+      title: 'NET-HERO',
+      lead: 'App to offset carbon footprint from driving.',
+      text: [
+        'App aimed at classic car owners to analyse carbon footprint from driving, and allow customer to purchase carbon offsets.',
+        'Created while working for BeZero Carbon.',
+      ],
+      bullets: [
+        'Built with React, Redux Toolkit and Typescript',
+        'Styled with TailwindCSS',
+        'Integrated with Stripe and other 3rd party APIs',
+        'Golang backend, bundled with Vite',
+        'Deployed to AWS via Cloudfront CDN, with S3 storage',
+        'End to end testing using Cypress',
+        'CI/CD with GitHub Actions',
+      ],
+      links: [
+        {
+          title: 'Live site',
+          link: 'https://www.net-hero.org/',
+        },
+      ],
+    },
+    {
+      number: 1,
       title: 'Essential Coaching',
       lead: 'Responsive website created for a local business.',
       text: [
@@ -29,7 +53,7 @@ const inputData = {
       ],
     },
     {
-      number: 1,
+      number: 2,
       title: 'Essential Coaching - Prototype',
       lead: 'Responsive site created with Bootstrap and Express',
       text: [
@@ -51,7 +75,7 @@ const inputData = {
       ],
     },
     {
-      number: 2,
+      number: 3,
       title: 'React Weather App',
       lead: 'React App allowing users to search weather forecasts',
       text: [
@@ -75,8 +99,8 @@ const inputData = {
         },
       ],
     },
-    {
-      number: 3,
+    /*    {
+      number: 4,
       title: 'React Daily Question',
       lead: 'React site displaying a random React interview question',
       text: [
@@ -97,9 +121,9 @@ const inputData = {
           link: 'https://github.com/jwpf100/react-daily-question',
         },
       ],
-    },
+    }, */
     {
-      number: 4,
+      number: 5,
       title: 'React Blog Front End',
       lead: 'Blogging app front end created with React',
       text: [
@@ -125,7 +149,7 @@ const inputData = {
       ],
     },
     {
-      number: 5,
+      number: 6,
       title: 'Blog Back End',
       lead: 'Blogging app back end created with Node, Express and MongoDB',
       text: [
@@ -148,7 +172,7 @@ const inputData = {
       ],
     },
     {
-      number: 6,
+      number: 7,
       title: 'Blackjack',
       lead: 'Blackjack game created using vanilla CSS, HTML and JS.',
       text: [
@@ -167,7 +191,7 @@ const inputData = {
       ],
     },
     {
-      number: 7,
+      number: 8,
       title: 'Portfolio v1',
       lead: 'Original single page portfolio.',
       text: ['Made in vanilla HTML, CSS and JS.'],

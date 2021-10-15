@@ -47,7 +47,6 @@ export const footerContact = [
   allContactData.phone,
   allContactData.github,
   allContactData.linkedIn,
-  allContactData.wordPress,
 ]
 export const mainContact = [
   allContactData.location,
@@ -60,5 +59,4 @@ export const heroContact = [
   allContactData.github,
   allContactData.email,
   allContactData.linkedIn,
-  allContactData.wordPress,
 ]
