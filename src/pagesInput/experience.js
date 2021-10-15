@@ -1,12 +1,24 @@
 const inputData = {
   experienceArray: [
     {
-      year: 'Apr 2020 - Present',
+      year: 'Mar 2021 - Present',
+      title: 'Junior Software Engineer',
+      company: 'BeZero Carbon',
+      country: '',
+      text: [
+        'Responsible for rolling out greenfield project enabling customers to analyse their carbon footprint from driving and purchase offsets',
+        'Worked with key stakeholders to ensure that business and client needs were met, while using my experience in E-Commerce to optimise the customer journey and user experience',
+        'Managed testing processes using previous project management experience to organise user acceptance testing and using Cypress to implement end to end testing',
+        'Currently working with React, Redux, Typescript, Tailwind CSS, Golang, Vite, AWS, Cypress',
+      ],
+    },
+    {
+      year: 'Apr 2020 - Apr 2021',
       title: 'Career Change',
       company: '',
       country: '',
       text: [
-        "After 8 years of leadership roles in E-Commerce, I decided to follow my passion of software development. Under the instruction of several industry mentors I've retrained, learning software development; primarily JavaScript and the MERN stack.  I've delivered a number of projects to demonstrate these skills, including a commercial site for a small business that can be seen in the projects section below.",
+        "After 8 years of leadership roles in E-Commerce, I decided to follow my passion of software development. Under the instruction of several industry mentors I've retrained, learning software development; primarily JavaScript, React, HTML, CSS and AWS.  I've delivered a number of projects to demonstrate these skills, including a commercial site for a small business that can be seen in the projects section below.",
       ],
     },
     {

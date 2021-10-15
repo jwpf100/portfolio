@@ -46,6 +46,7 @@ const IndexPage = ({ data }) => {
   const project6Image = getImage(data.project6Image)
   const project7Image = getImage(data.project7Image)
   const project8Image = getImage(data.project8Image)
+  const project9Image = getImage(data.project9Image)
 
   const { projectArray } = inputData
 
@@ -58,13 +59,14 @@ const IndexPage = ({ data }) => {
     project6Image,
     project7Image,
     project8Image,
+    project9Image,
   ]
 
   return (
     <Layout>
       <SEO
         title="Joe Fletcher"
-        description="Front end developer with background in E-Commerce and Finance"
+        description="Developer with background in E-Commerce and Finance"
       />
       <HeroImageFull sources={heroImages} element={element}>
         <HeroText>
@@ -129,42 +131,47 @@ export const pageQuery = graphql`
         gatsbyImageData(layout: CONSTRAINED)
       }
     }
-    project1Image: file(relativePath: { eq: "projects/essential-gatsby.jpg" }) {
+    project1Image: file(relativePath: { eq: "projects/net-hero.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED)
       }
     }
-    project2Image: file(relativePath: { eq: "projects/essential-node.jpg" }) {
+    project2Image: file(relativePath: { eq: "projects/essential-gatsby.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED)
       }
     }
-    project3Image: file(relativePath: { eq: "projects/weather.png" }) {
+    project3Image: file(relativePath: { eq: "projects/essential-node.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED)
       }
     }
-    project4Image: file(relativePath: { eq: "projects/question.jpg" }) {
+    project4Image: file(relativePath: { eq: "projects/weather.png" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED)
       }
     }
-    project5Image: file(relativePath: { eq: "projects/react-blog.jpg" }) {
+    project5Image: file(relativePath: { eq: "projects/question.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED)
       }
     }
-    project6Image: file(relativePath: { eq: "projects/blog-admin.jpg" }) {
+    project6Image: file(relativePath: { eq: "projects/react-blog.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED)
       }
     }
-    project7Image: file(relativePath: { eq: "projects/blackjack.jpg" }) {
+    project7Image: file(relativePath: { eq: "projects/blog-admin.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED)
       }
     }
-    project8Image: file(relativePath: { eq: "projects/portfolio-old.jpg" }) {
+    project8Image: file(relativePath: { eq: "projects/blackjack.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED)
+      }
+    }
+    project9Image: file(relativePath: { eq: "projects/portfolio-old.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED)
       }

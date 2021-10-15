@@ -12,7 +12,7 @@ const SkillsIconSection = ({ children, className }) => (
       <SkillBadge icon={['fab', 'html5']} name="HTML 5" />
       <SkillBadge icon={['fab', 'css3-alt']} name="CSS 3" />
       <SkillBadge icon={['fab', 'js']} name="JavaScript" />
-      <SkillBadge icon={['fab', 'react']} name="React" />
+      <SkillBadge icon={['fab', 'react']} name="React & Redux" />
       <SkillBadge icon={['fab', 'bootstrap']} name="Bootstrap" />
       <SkillBadge icon={['fab', 'sass']} name="SASS" />
       <SkillBadge icon={['fab', 'aws']} name="AWS" />
@@ -20,7 +20,7 @@ const SkillsIconSection = ({ children, className }) => (
       <SkillBadge icon={['fab', 'github']} name="github" />
       <SkillBadge icon={['fab', 'node']} name="Node.js & Express" />
       <SkillBadge icon={['fas', 'database']} name="MongoDB MySQL GraphQL" />
-      <SkillBadge icon={['fas', 'tools']} name="ESLint Mocha Docker" />
+      <SkillBadge icon={['fas', 'tools']} name="ESLint Cypress Docker" />
     </div>
   </div>
 )
