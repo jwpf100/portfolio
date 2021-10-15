@@ -3,7 +3,7 @@ const inputData = {
     {
       number: 0,
       title: 'NET-HERO',
-      lead: 'App to offset carbon footprint from driving.',
+      lead: 'App to offset carbon footprint from driving',
       text: [
         'App aimed at classic car owners to analyse carbon footprint from driving, and allow customer to purchase carbon offsets.',
         'Created while working for BeZero Carbon.',
@@ -27,7 +27,7 @@ const inputData = {
     {
       number: 1,
       title: 'Essential Coaching',
-      lead: 'Responsive website created for a local business.',
+      lead: 'Responsive website created for a local business',
       text: [
         'A business website designed to provide information, contact details and booking options for Essential Coaching, a coaching business.',
         'Recently launched as a redesign of the original project.  The main aim was to deliver a faster user experience and reduce monthly running costs.',
