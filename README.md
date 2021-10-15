@@ -36,5 +36,3 @@ To Visit App:
 `localhost:8000`
 
 ## Reflection
-
-TBC - Test
