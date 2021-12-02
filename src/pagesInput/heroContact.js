@@ -26,7 +26,7 @@ const allContactData = {
     text: 'Lessons Learned',
     faIcon: ['fab', 'wordpress-simple'], // OR linkedin-in
     // faIconAlt: ['fab', 'wordpress'], // OR linkedin-in
-    href: 'http://3.140.151.152/wordpress/',
+    href: 'http://blog.josephfletcher.co.uk',
   },
   location: {
     title: 'Location',
@@ -47,6 +47,7 @@ export const footerContact = [
   allContactData.phone,
   allContactData.github,
   allContactData.linkedIn,
+  allContactData.wordPress,
 ]
 export const mainContact = [
   allContactData.location,
@@ -59,4 +60,5 @@ export const heroContact = [
   allContactData.github,
   allContactData.email,
   allContactData.linkedIn,
+  allContactData.wordPress,
 ]

@@ -40,8 +40,8 @@ const IndexPage = ({ data }) => {
 
   const project1Image = getImage(data.project1Image)
   const project2Image = getImage(data.project2Image)
-  const project3Image = getImage(data.project3Image)
-  const project4Image = getImage(data.project4Image)
+  const project4Image = getImage(data.project3Image)
+  const project3Image = getImage(data.project4Image)
   const project5Image = getImage(data.project5Image)
   const project6Image = getImage(data.project6Image)
   const project7Image = getImage(data.project7Image)

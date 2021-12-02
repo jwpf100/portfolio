@@ -54,28 +54,6 @@ const inputData = {
     },
     {
       number: 2,
-      title: 'Essential Coaching - Prototype',
-      lead: 'Responsive site created with Bootstrap and Express',
-      text: [
-        'The first release of Essential Coaching. Originally designed using Node/Express to handle routing and hosted on Heroku.  Has received extremely positive feedback from the business owner and continues to drive new customers.',
-      ],
-      bullets: [
-        'Templated with Ejs',
-        'Node/Express backend',
-        'Styled using Bootstrap and SASS',
-        'Integrated with Google Analytics, MailChimp and Calendly',
-        'Custom webpack build',
-        'Hosted on Heroku',
-      ],
-      links: [
-        {
-          title: 'github Repository',
-          link: 'https://github.com/jwpf100/essential-coaching-app',
-        },
-      ],
-    },
-    {
-      number: 3,
       title: 'React Weather App',
       lead: 'React App allowing users to search weather forecasts',
       text: [
@@ -96,6 +74,28 @@ const inputData = {
         {
           title: 'github Repository',
           link: 'https://github.com/jwpf100/react-weather-app',
+        },
+      ],
+    },
+    {
+      number: 3,
+      title: 'Essential Coaching - v1',
+      lead: 'Responsive site created with Bootstrap and Express',
+      text: [
+        'The first release of Essential Coaching. Originally designed using Node/Express to handle routing and hosted on Heroku.  Has received extremely positive feedback from the business owner and continues to drive new customers.',
+      ],
+      bullets: [
+        'Templated with Ejs',
+        'Node/Express backend',
+        'Styled using Bootstrap and SASS',
+        'Integrated with Google Analytics, MailChimp and Calendly',
+        'Custom webpack build',
+        'Hosted on Heroku',
+      ],
+      links: [
+        {
+          title: 'github Repository',
+          link: 'https://github.com/jwpf100/essential-coaching-app',
         },
       ],
     },
@@ -121,7 +121,7 @@ const inputData = {
           link: 'https://github.com/jwpf100/react-daily-question',
         },
       ],
-    }, */
+    }, 
     {
       number: 5,
       title: 'React Blog Front End',
@@ -170,7 +170,7 @@ const inputData = {
           link: 'https://github.com/jwpf100/node-blog',
         },
       ],
-    },
+    }, */
     {
       number: 7,
       title: 'Blackjack',
@@ -190,6 +190,7 @@ const inputData = {
         },
       ],
     },
+    /*
     {
       number: 8,
       title: 'Portfolio v1',
@@ -206,7 +207,7 @@ const inputData = {
           link: 'https://github.com/jwpf100/ga-portfolio',
         },
       ],
-    },
+    }, */
   ],
 }
 

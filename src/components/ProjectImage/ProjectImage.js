@@ -5,7 +5,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 
 const ProfileImage = ({ className, image }) => (
   <GatsbyImage
-    className={['d-block mx-auto', className].join(' ')}
+    className={['d-block mx-auto rounded-3', className].join(' ')}
     image={image}
     alt="Project"
   />
